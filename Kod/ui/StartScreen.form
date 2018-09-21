@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.StartScreen">
+  <grid id="27dc6" binding="pnlRootPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="394" height="142"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="d4601" class="javax.swing.JLabel" binding="lblHeader">
+        <constraints border-constraint="North"/>
+        <properties>
+          <font size="22" style="1"/>
+          <horizontalAlignment value="0"/>
+          <text value="Diplomski rad: Simulator"/>
+        </properties>
+      </component>
+      <component id="ae133" class="javax.swing.JLabel" binding="lblFooter">
+        <constraints border-constraint="South"/>
+        <properties>
+          <font size="18" style="2"/>
+          <horizontalAlignment value="4"/>
+          <text value="Student: Jovan Komatovic "/>
+        </properties>
+      </component>
+      <grid id="21262" binding="pnlCenterPanel" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
